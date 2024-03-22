@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root{
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hwb(332 16% 52%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+
+@media (max-width: 500px) {
+    main {
+        margin: 0 auto 0 auto !important;
+        border-radius: 0 !important;
+        padding: 0 0 20px 0 !important;
+    }
+
+    img{
+        width: 100% !important;
+        border-radius: 0px !important;
+    }
+
+    h1, p{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    ol{
+        margin-right: 20px !important;
+    }
+
+    ul{
+        margin-right: 20px !important;
+    }
+
+    .time{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    main h2{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    main hr{
+        width: 90% !important;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--Eggshell);
+}
+
+main{
+    margin: 50px auto 0 auto;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+p{
+    font-family: "Outfit", sans-serif;
+    margin-top: 16px;
+}
+
+.time{
+    max-width: 500px;
+    background-color: hsla(332, 51%, 32%, 0.103);
+    border-radius: 8px;
+    padding: 10px 10px 20px 10px;
+    margin-top: 20px;
+}
+
+.time h2{
+    font-family: "Outfit", sans-serif;
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--DarkRaspberry);
+    margin-left: 30px;
+}
+
+.time ul{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: "Outfit", sans-serif;
+}
+
+.time strong{
+    color: var(--WengeBrown);
+}
+
+.time li{
+    margin-top: 10px;
+}
+
+.time li::marker{
+    color: var(--DarkRaspberry);
+}
+
+main h2{
+    font-family: "Young Serif", serif;
+    font-weight: normal;
+    font-size: 2em;
+    color: var(--Nutmeg);
+    margin-top: 30px;
+}
+
+main ul{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: "Outfit", sans-serif;
+    padding-left: 20px;
+}
+
+main li{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+main li::marker{
+    color: var(--Nutmeg);
+}
+
+main ol{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: "Outfit", sans-serif;
+    padding-left: 20px;
+}
+
+main hr{
+    margin: 30px auto 0 auto;
+    border-color: #00000018;
+    width: 95%;
+
+}
+
+main strong{
+    color: var(--WengeBrown);
+}
+
+footer{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer p{
+   padding-top: 5px;
+   color: #000000;
+   margin: 0;
+   font-size: 13px;
+}
+
+footer a{
+    color: #001464;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
